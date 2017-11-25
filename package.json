@@ -1,0 +1,30 @@
+{
+    "name": "vscode-eex-snippets",
+    "displayName": "EEx snippets",
+    "description": "Elixir EEx and HTML (EEx) code snippets.",
+    "version": "0.0.1",
+    "publisher": "jarinastefan",
+    "license": "MIT",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/stefanjarina/vscode-eex-snippets.git"
+	},
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "Eex",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "HTML (Eex)",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
