@@ -15,14 +15,40 @@ There you have either the option to show the already installed snippets or insta
 
 ## Snippets
 
-Below is a list of all available snippets and the triggers of each one. The **->** means the `TAB` key.
+Below is a list of all available snippets.
 
-### Import and export
+### Basic
 | Trigger  | Content |
 | -------: | ------- |
-| `e=→`   | render block `<%= %>`|
-| `e-→`   | exec block `<%- %>`|
-| `e#→`   | comment block `<%# %>`|
+| `e=`     | render block `<%= %>`|
+| `e-`     | exec block `<%- %>`|
+| `e#`     | comment `<%# %>`|
+| `end`    | end tag `<% end %>`|
+| `lt`     | link `<%= link \"${1:text}\", to: ${2:url} %>`|
+| `render` | render `<%= render \"${1:partial}.html\", ${2:local_var: @local} %>`|
+
+### Control flow
+
+| Trigger   | Content |
+| -------:  | ------- |
+| `for`     | for `<%= for $1 <- $1 do %>`|
+| `if`      | if `<%= if $1 do %>`|
+| `ife`     | if else `<%= if $1 do %> <% else %>`|
+| `cond`    | cond `<%= cond do %>`|
+| `unless`  | unless `<%= unless $1 do %>`|
+
+### Forms
+
+| Trigger  | Content |
+| -------: | ------- |
+| `ff`     | form_for `<%= form_for @${1:changeset}, ${2:url}, ${3:[]}, fn f -> %>`|
+| `et`     | form error `<%= error_tag ${1:f}, :${2:field} %>`|
+| `la`     | form label `<%= label ${1:f}, :${2:field}, \"${3:Text}\" %>`|
+| `ti`     | form text input `<%= text_input ${1:f}, :${2:field} %>`|
+| `pi`     | form password input `<%= password_input ${1:f}, :${2:field} %>`|
+| `subm`   | form submit `<%= submit ${1:Text} %>`|
+| `submc`  | form submit with class `<%= submit ${1:Text}, class: \"${3:btn btn-primary}\" %>`|
+
 
 TODO: Document here all the snippets
 
