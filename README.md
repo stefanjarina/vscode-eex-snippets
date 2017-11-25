@@ -2,11 +2,6 @@
 
 This extension contains code snippets for Elixir `.eex` and `.html.eex` files for [VS Code](https://code.visualstudio.com/) editor.
 
-## Installation
-
-In order to install an extension you need to launch the Command Pallete (Ctrl + Shift + P or Cmd + Shift + P) and type Extensions.
-There you have either the option to show the already installed snippets or install new ones. Search for **'EEx snippets'** and install it.
-
 **Enjoy!!!**
 
 ## Supported languages (file extensions)
@@ -49,14 +44,9 @@ Below is a list of all available snippets.
 | `subm`   | form submit `<%= submit ${1:Text} %>`|
 | `submc`  | form submit with class `<%= submit ${1:Text}, class: \"${3:btn btn-primary}\" %>`|
 
-
-TODO: Document here all the snippets
-
 ## Release Notes
 
-### 0.0.1
-
-Initial release of first snippets
+Please read the [CHANGELOG](CHANGELOG.md) to see what has changed in this extension over time.
 
 ## Known Issues
 
@@ -69,9 +59,9 @@ Graciously borrowed some of the snippets from the [phoenix-elixir-snippets](http
 ## Contribution
 
 ```
-git clone https://github.com/florinpatrascu/vscode-elixir-snippets.git
+git clone https://github.com/stefanjarina/vscode-eex-snippets
 ```
-And copy the `vscode-elixir-snippets` folder into the `<user home>/.vscode/extensions` folder. Restart Code.
+And copy the `vscode-eex-snippets` folder into the `<user home>/.vscode/extensions` folder. Restart Code.
 
 ## License
 
