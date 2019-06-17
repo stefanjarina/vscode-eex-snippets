@@ -9,3 +9,8 @@
 ## [0.0.3]
 - Remove Installation section from README.md as there are no special installation steps required.
 - Release Notes in README now only point to this file to avoid managing the same on 2 places
+
+## [0.0.4]
+- Updated to support both commonly used Elixir extensions
+  - The new [ElixirLS: Elixir support and debugger](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls)
+  - The old and no longer updated [vscode-elixir](https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir)
