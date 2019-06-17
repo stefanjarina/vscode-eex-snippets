@@ -19,6 +19,14 @@
     "contributes": {
         "snippets": [
             {
+                "language": "EEx",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "HTML (EEx)",
+                "path": "./snippets/snippets.json"
+            },
+            {
                 "language": "Eex",
                 "path": "./snippets/snippets.json"
             },
