@@ -5,9 +5,9 @@
     "description": "<%= %> render block"
   },
   "eex_exec_block": {
-    "prefix": "e-",
-    "body": ["<%- $1 %>"],
-    "description": "<%- %> exec block"
+    "prefix": ["ee", "e-"],
+    "body": ["<% $1 %>"],
+    "description": "<% %> exec block"
   },
   "eex_comment_block": {
     "prefix": "e#",

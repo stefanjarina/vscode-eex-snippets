@@ -16,7 +16,7 @@ Below is a list of all available snippets.
 | Trigger  | Content |
 | -------: | ------- |
 | `e=`     | render block `<%= %>`|
-| `e-`     | exec block `<%- %>`|
+| `ee` <br/> or `e-` | exec block `<% %>`|
 | `e#`     | comment `<%# %>`|
 | `end`    | end tag `<% end %>`|
 | `lt`     | link `<%= link \"${1:text}\", to: ${2:url} %>`|
