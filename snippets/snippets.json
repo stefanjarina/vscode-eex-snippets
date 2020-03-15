@@ -134,6 +134,15 @@
     ],
     "description": "eex link"
   },
+   "eex_link_block": {
+    "prefix": "ltb",
+    "body": [
+      "<%= link to: ${1:url} do %>",
+      "\t${2:text}",
+      "<% end %>"
+    ],
+    "description": "eex link block"
+  },
   "eex_render": {
     "prefix": "render",
     "body": [
