@@ -23,3 +23,7 @@
 
 - Fix the exec_block from `<%- %>` to `<% %>` as it is in documentation
 - Add additional trigger `ee` for exec_block `<% %>`
+
+## [0.0.6]
+
+- Add snippet `eex_link_block` with trigger `ltb`
