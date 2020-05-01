@@ -33,6 +33,14 @@
       {
         "language": "HTML (Eex)",
         "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "eex",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "html-eex",
+        "path": "./snippets/snippets.json"
       }
     ]
   }
