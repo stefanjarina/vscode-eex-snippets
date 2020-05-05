@@ -6,8 +6,8 @@ This extension contains code snippets for Elixir `.eex` and `.html.eex` files fo
 
 ## Supported languages (file extensions)
 
-- EEx (.eex)
-- HTML (EEx) (.html.eex)
+- `EEx` or `eex` (.eex)
+- `HTML (EEx)` or `html-eex` (.html.eex)
 
 ## Snippets
 
@@ -61,7 +61,7 @@ Graciously borrowed some of the snippets from the [phoenix-elixir-snippets](http
 
 ## Contribution
 
-```
+```sh
 git clone https://github.com/stefanjarina/vscode-eex-snippets
 ```
 

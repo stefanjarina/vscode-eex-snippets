@@ -2,7 +2,7 @@
   "name": "vscode-eex-snippets",
   "displayName": "EEx snippets",
   "description": "Elixir EEx and HTML (EEx) code snippets.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "stefanjarina",
   "license": "MIT",
   "repository": {

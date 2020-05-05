@@ -27,3 +27,8 @@
 ## [0.0.6]
 
 - Add snippet `eex_link_block` with trigger `ltb`
+
+## [0.0.7]
+
+- Merged [#5](https://github.com/stefanjarina/vscode-eex-snippets/pull/5) from @zolrath
+  - Adds support for new compliant language identifiers `eex` and `html-eex`
